@@ -7,4 +7,5 @@ func main() {
 	Sample()
 	Number()
 	Boolean()
+	String("Mustofa Adny")
 }
