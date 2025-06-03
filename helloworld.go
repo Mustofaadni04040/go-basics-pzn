@@ -9,4 +9,5 @@ func main() {
 	Boolean()
 	String("Mustofa Adny")
 	Variable()
+	Constant()
 }
