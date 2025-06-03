@@ -8,4 +8,5 @@ func main() {
 	Number()
 	Boolean()
 	String("Mustofa Adny")
+	Variable()
 }
