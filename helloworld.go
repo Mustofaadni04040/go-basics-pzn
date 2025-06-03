@@ -4,11 +4,5 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello, world!")
-	Sample()
-	Number()
-	Boolean()
-	String("Mustofa Adny")
-	Variable()
-	Constant()
-	Conversion()
+	Slice()
 }
