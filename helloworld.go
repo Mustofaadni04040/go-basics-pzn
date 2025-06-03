@@ -10,4 +10,5 @@ func main() {
 	String("Mustofa Adny")
 	Variable()
 	Constant()
+	Conversion()
 }
