@@ -16,5 +16,4 @@ func BooleanOperations() {
 
 	var lulus bool = nilaiAkhir >= 80 && absensi >= 70
 	fmt.Println("Apakah lulus?", lulus)
-
 }
