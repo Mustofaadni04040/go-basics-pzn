@@ -13,4 +13,12 @@ func Variable() {
 
 	name = "Ucok Udin"
 	fmt.Println("Hello", name)
+
+	// Multiple variable declaration
+	var (
+		firsName = "Mustofa"; 
+		lastName = "Adny"
+	)
+	fmt.Println("First name", firsName)
+	fmt.Println("Last name", lastName)
 }
