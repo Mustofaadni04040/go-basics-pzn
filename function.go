@@ -81,3 +81,28 @@ func returnGoodBye() {
 
 	fmt.Println(goodBye("Ucok"))
 }
+
+type FilterType func(string) string // type declaration
+
+// function as a parameter
+func sayHelloWithFilter(name string, filter FilterType) {
+	filtredName := filter(name)
+
+	fmt.Println("Hello", filtredName)
+}
+
+func spamFilter(name string) string {
+	if name == "Anjing" {
+		return "*****"
+	} else {
+		return name
+	}
+}
+
+func sayHelloWithFilterExample() {
+	sayHelloWithFilter("Ucok", spamFilter)
+	sayHelloWithFilter("Anjing", spamFilter) 
+
+	filter := spamFilter
+	sayHelloWithFilter("Budi", filter) 
+}
