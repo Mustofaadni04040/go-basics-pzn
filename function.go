@@ -62,3 +62,11 @@ func sumAllNumbers() {
 
 	fmt.Println("Total sum is:", total)
 }
+
+// slice parameters
+func sumAllSlice() {
+	numbers := []int{10, 20, 30, 40, 50}
+
+	total := sumAll(numbers...) // using ... to pass slice as variadic parameters
+	fmt.Println("Total sum from slice: ", total)
+}
