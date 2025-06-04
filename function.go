@@ -45,3 +45,20 @@ func getFullNameWithNamedReturn() {
 
 	fmt.Println("Full Name with Named Return:", firstName, lastName)
 }
+
+// Function with variadic parameters
+func sumAll(numbers ...int) int {
+	total := 0
+
+	for _, number := range numbers {
+		total += number
+	}
+
+	return total
+}
+
+func sumAllNumbers() {
+	total := sumAll(10, 20, 30, 40, 50)
+
+	fmt.Println("Total sum is:", total)
+}
