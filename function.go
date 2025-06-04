@@ -70,3 +70,14 @@ func sumAllSlice() {
 	total := sumAll(numbers...) // using ... to pass slice as variadic parameters
 	fmt.Println("Total sum from slice: ", total)
 }
+
+// function as a value
+func getGoodBye(name string) string {
+	return "Good Bye " + name
+}
+
+func returnGoodBye() {
+	goodBye := getGoodBye
+
+	fmt.Println(goodBye("Ucok"))
+}
