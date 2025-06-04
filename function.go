@@ -32,3 +32,16 @@ func getFullName() {
 	fmt.Println("Full Name:", firstName)
 }
 
+// Named return values
+func getCompleteName() (firstName string, lastName string) {
+	firstName = "Mustofa"
+	lastName = "Adny"
+	
+	return firstName, lastName
+}
+
+func getFullNameWithNamedReturn() {
+	firstName, lastName := getCompleteName()
+
+	fmt.Println("Full Name with Named Return:", firstName, lastName)
+}
