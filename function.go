@@ -22,3 +22,13 @@ func result() {
 	fmt.Println(result)
 }
 
+// mutiple return values
+func returnMultipleValues() (string, string) {
+	return "Mustofa", "Adny"
+}
+
+func getFullName() {
+	firstName, _ := returnMultipleValues() // : _ ignores the return value
+	fmt.Println("Full Name:", firstName)
+}
+
