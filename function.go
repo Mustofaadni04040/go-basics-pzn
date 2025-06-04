@@ -127,3 +127,22 @@ func user() {
 	registerUser("Anjing", blacklist)
 	registerUser("Babi", blacklist)
 }
+
+// recursive function
+func factorialLoop(value int) int {
+	// using loop
+	result :=1
+	for i := value; i > 0; i++ {
+		result *= i
+	}
+
+	return result
+}
+
+func factorialRecursive(value int) int {
+	if value ==  1 {
+		return 1
+	} else {
+		return value * factorialRecursive(value - 1) // 10 * factorialRecursive(9) : example 
+	}
+}
