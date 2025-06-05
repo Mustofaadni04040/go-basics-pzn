@@ -17,7 +17,7 @@ func ExamplewithoutPointer() {
 }
 
 func (man *Man) Married2() {
-	man.Name = "Mr. " + man.Name // untuk method selalu direkomendasikan menggunakan pointer
+	man.Name = "Mr. " + man.Name // untuk method selalu direkomendasikan menggunakan pointer agar tidak mengcopy terus menerus
 }
 
 func ExamplewithPointer() {

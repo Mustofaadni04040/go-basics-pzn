@@ -13,4 +13,6 @@ func main() {
 
 	result := helper.SayHello("Mustofa Adny")
 	fmt.Println(result)
+
+	MainCustom()
 }

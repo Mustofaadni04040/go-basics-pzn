@@ -13,7 +13,7 @@ func Pembagian(nilai int, pembagi int) (int, error) {
 	}
 }
 
-func exampleMain() {
+func ExampleMain2() {
 	hasil, err := Pembagian(100, 10)
 
 	// error checking
