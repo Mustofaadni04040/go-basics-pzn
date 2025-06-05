@@ -2,6 +2,7 @@ package main
 
 import (
 	"belajar-golang-dasar/helper"
+	_ "belajar-golang-dasar/internal"
 	"fmt"
 )
 
