@@ -81,4 +81,5 @@ go run <-- file name -->
 </ul>
 
 ## 📖 reference
-• [Programming Zaman Now](https://www.youtube.com/watch?v=IO_vkyJnMas&t=12s)
+• [Programming Zaman Now](https://www.youtube.com/watch?v=IO_vkyJnMas&t=12s) <br />
+• [Go Documentation](https://go.dev/tour/list)
