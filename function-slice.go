@@ -21,12 +21,12 @@ func SliceFunctions() {
 	fmt.Println(days) // [Senin Selasa Rabu Kamis Jumat Sabtu Baru Minggu Baru]
 
 	// make slice
-	var newSlice []string = make([]string, 2, 5) // membuat slice dengan panjang 2 dan kapasitas 5
+	var newSlice []string = make([]string, 2, 5) // membuat slice dengan panjang default terisi 2 dan kapasitas 5
 	newSlice[0] = "Mustofa"
 	newSlice[1] = "Adny"
 	fmt.Println(newSlice) // [Mustofa Adny]
 
-	newSlice2 := append(newSlice, "Ucok", "Udin") // menambahkan elemen baru ke dalam slice (memakai kapasitas array newSlice karena kapasitasnya 5)
+	newSlice2 := append(newSlice, "Ucok", "Udin") // menambahkan elemen baru ke dalam slice (memakai kapasitas slice newSlice karena kapasitasnya 5)
 	fmt.Println(newSlice2) // [Mustofa Adny Ucok Udin]
 
 	// copy slice

@@ -1,18 +1,21 @@
 package main
 
 import (
-	"belajar-golang-dasar/helper"
-	_ "belajar-golang-dasar/internal"
+	// "belajar-golang-dasar/helper"
+	// _ "belajar-golang-dasar/internal"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("Hello, world!")
-	Slice()
-	SliceFunctions()
+	// Slice()
+	// SliceFunctions()
 
-	result := helper.SayHello("Mustofa Adny")
-	fmt.Println(result)
+	// result := helper.SayHello("Mustofa Adny")
+	// fmt.Println(result)
 
-	MainCustom()
+	// MainCustom()
+	// Interface()
+
+	fmt.Println(TwoSums([]int{2,7,11,15}, 9))
 }
